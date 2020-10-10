@@ -7,9 +7,10 @@
 	 ResultSet rs  = null;
 	 
      String  jdbc = "jdbc:oracle:thin:@//localhost:1521/xe";
-     String  id = "system";
+     String  id = "ysj";
      String  pwd = "1234";
 
 	Class.forName("oracle.jdbc.OracleDriver"); 
  	con = DriverManager.getConnection(jdbc,id,pwd); 
 %>
+
